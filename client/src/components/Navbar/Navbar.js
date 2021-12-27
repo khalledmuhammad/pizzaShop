@@ -58,9 +58,7 @@ function Navbar() {
                 <Link className="navlinks" spy={true} smooth={true} duration={500}  to="products">
                     Products
                 </Link >
-                 <Link className="navlinks"  spy={true} smooth={true} duration={500} to="contact">
-                    contactUs
-                </Link >
+               
                 </>
                 }
                 {
@@ -112,7 +110,6 @@ function Navbar() {
         <NavbarExtendedContainer>
           <NavbarLinkExtended to="about" onClick={()=> setextendNavbar(!extendNavbar)}> Home</NavbarLinkExtended>
           <NavbarLinkExtended to="products" onClick={()=> setextendNavbar(!extendNavbar)}> Products</NavbarLinkExtended>
-          <NavbarLinkExtended to="contact" onClick={()=> setextendNavbar(!extendNavbar)}> Contact Us</NavbarLinkExtended>
           {
                   loggedIn && userRole ==="admin" ? 
                   <NavLink activeClassName="active" onClick={()=> setextendNavbar(!extendNavbar)} className="navlinks" exact to="/dashboard">
