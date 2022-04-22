@@ -6,4 +6,4 @@ with authentication and autherization implemented
  
  User : register , login , users can add product to the cart and order the products
  
- u can find the app deployed on heroku https://khsshop.herokuapp.com/
+ u can find the app deployed on heroku https://pizza-shopping-app.herokuapp.com/
